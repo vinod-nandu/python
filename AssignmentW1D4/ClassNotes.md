@@ -50,6 +50,17 @@ It uses standard HTTP methods to perform operations on resources.
 
 ---
 
+## 🏗️ The 5 Status Code Classes
+Status codes are divided into five logical categories based entirely on their **first digit**:
+
+*   **`1xx` Informational:** The request was received; processing continues. Rarely used explicitly in REST architecture.
+*   **`2xx` Success:** The action was successfully received, understood, and accepted by the server.
+*   **`3xx` Redirection:** The client must take additional actions (e.g., following a new URI) to complete the request.
+*   **`4xx` Client Error:** The request contains invalid syntax, missing details, or violates constraints. *The client must modify the request.*
+*   **`5xx` Server Error:** The server failed to fulfill an apparently valid request due to an internal or infrastructure failure. *The client cannot fix this on their own.*
+
+---
+
 ## 5. Postman Installation
 **Postman** is a popular tool used to test, develop, and document APIs.
 
