@@ -1,6 +1,5 @@
 # Day 4 – Minutes of Meeting
 
-**Good afternoon, everyone.**
 
 ## Topics Covered
 
