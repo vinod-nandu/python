@@ -25,3 +25,25 @@ Here is a step-by-step guide to installing Ollama and pulling the Qwen 0.5B mode
 2. Run the official installation script by typing the following command and pressing Enter:
    ```bash
    curl -fsSL https://ollama.com/install.sh | sh
+
+---
+### Phase 2: Verify the Installation
+
+Before pulling the model, ensure Ollama is installed correctly.
+
+1. Open your command line interface:
+   * **Windows:** Open Command Prompt or PowerShell.
+   * **macOS/Linux:** Open Terminal.
+2. Type the following command and press Enter:
+   ```bash
+   ollama --version
+---
+
+### Phase 3: Pull the Qwen 0.5B Model
+Now you will download the model to your local machine.
+In the same Command Prompt or Terminal window, type the following command to pull the latest 0.5B Qwen model (Qwen 2.5):
+
+   ```bash
+   ollama pull qwen2.5:0.5b
+   ollama run qwen2.5:0.5b
+---
